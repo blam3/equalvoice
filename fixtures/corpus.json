@@ -1,0 +1,502 @@
+[
+  {
+    "comment_id": "C001",
+    "text": "Finally get to whiteboard with my team again instead of squinting at a shared screen — this is a win.",
+    "source_label": "Employee 1"
+  },
+  {
+    "comment_id": "C002",
+    "text": "Three days feels like a reasonable middle ground. Not thrilled, not mad.",
+    "source_label": "Employee 2"
+  },
+  {
+    "comment_id": "C003",
+    "text": "The onboarding buddies for our new hires will actually be in the room now, which matters more than people realize.",
+    "source_label": "Employee 3"
+  },
+  {
+    "comment_id": "C004",
+    "text": "Honestly my best ideas come from overhearing the design team argue two desks away. Missed that.",
+    "source_label": "Employee 4"
+  },
+  {
+    "comment_id": "C005",
+    "text": "I worry the open floor is going to be a wall of noise on the days everyone overlaps.",
+    "source_label": "Employee 5"
+  },
+  {
+    "comment_id": "C006",
+    "text": "Culture isn't a Slack channel. Glad leadership seems to get that.",
+    "source_label": "Employee 6"
+  },
+  {
+    "comment_id": "C007",
+    "text": "Can we please sort out meeting rooms before Tuesday? There are never enough as it is.",
+    "source_label": "Employee 7"
+  },
+  {
+    "comment_id": "C008",
+    "text": "Mentoring my junior over video never clicked. In person she just turns her chair around and asks. Way better.",
+    "source_label": "Employee 8"
+  },
+  {
+    "comment_id": "C009",
+    "text": "I'm cautiously optimistic. Ask me again after a month of commuting.",
+    "source_label": "Employee 9"
+  },
+  {
+    "comment_id": "C010",
+    "text": "The energy in the office on a full day is something you can't fake remotely.",
+    "source_label": "Employee 10"
+  },
+  {
+    "comment_id": "C011",
+    "text": "Give it a quarter and the parking situation will tell us if three days was realistic.",
+    "source_label": "Employee 11"
+  },
+  {
+    "comment_id": "C012",
+    "text": "My earliest train is the one that's least dependable, so on in-office mornings I can't always count on arriving when I'm supposed to.",
+    "source_label": "Employee 12"
+  },
+  {
+    "comment_id": "C013",
+    "text": "Spontaneous coffee-line conversations solve problems that would take a week of emails. I'm in.",
+    "source_label": "Employee 13"
+  },
+  {
+    "comment_id": "C014",
+    "text": "Focus is my concern. My deep-work blocks are the whole reason my remote days were productive.",
+    "source_label": "Employee 14"
+  },
+  {
+    "comment_id": "C015",
+    "text": "Newer folks especially need this — you learn the unwritten rules by being around people.",
+    "source_label": "Employee 15"
+  },
+  {
+    "comment_id": "C016",
+    "text": "Three days in, two days home strikes me as the sweet spot for collaboration without burning everyone out.",
+    "source_label": "Employee 16"
+  },
+  {
+    "comment_id": "C017",
+    "text": "I like it. The team feels like a team again and not a grid of thumbnails.",
+    "source_label": "Employee 17"
+  },
+  {
+    "comment_id": "C018",
+    "text": "Please add more phone booths. Taking calls at your desk in an open plan is misery for everyone nearby.",
+    "source_label": "Employee 18"
+  },
+  {
+    "comment_id": "C019",
+    "text": "The mentorship angle sells it for me. My best growth came from sitting next to someone senior.",
+    "source_label": "Employee 19"
+  },
+  {
+    "comment_id": "C020",
+    "text": "Morale on our squad has been flat; being together might actually help with that.",
+    "source_label": "Employee 20"
+  },
+  {
+    "comment_id": "C021",
+    "text": "I get the collaboration argument, I just hope it doesn't become five days by stealth.",
+    "source_label": "Employee 21"
+  },
+  {
+    "comment_id": "C022",
+    "text": "Onboarding a remote hire last year was painful. This should make the next one much smoother.",
+    "source_label": "Employee 22"
+  },
+  {
+    "comment_id": "C023",
+    "text": "Meeting rooms are going to be the bottleneck. Watch this space.",
+    "source_label": "Employee 23"
+  },
+  {
+    "comment_id": "C024",
+    "text": "I do my clearest thinking in a quiet house, so I'm bracing for the noise adjustment.",
+    "source_label": "Employee 24"
+  },
+  {
+    "comment_id": "C025",
+    "text": "Culture-wise, this is the right call. You can feel when a team's never in the same room.",
+    "source_label": "Employee 25"
+  },
+  {
+    "comment_id": "C026",
+    "text": "Three days is fine. I just want predictability so I can plan the rest of my week.",
+    "source_label": "Employee 26"
+  },
+  {
+    "comment_id": "C027",
+    "text": "The apprenticeship-style learning that happens in person is genuinely hard to replicate on a call.",
+    "source_label": "Employee 27"
+  },
+  {
+    "comment_id": "C028",
+    "text": "I'll miss the quiet, but I won't miss feeling disconnected from everyone.",
+    "source_label": "Employee 28"
+  },
+  {
+    "comment_id": "C029",
+    "text": "Cross-team collaboration has been our weak spot. Being co-located a few days should help.",
+    "source_label": "Employee 29"
+  },
+  {
+    "comment_id": "C030",
+    "text": "Whoever books all the rooms for recurring syncs, please free some up for the rest of us.",
+    "source_label": "Employee 30"
+  },
+  {
+    "comment_id": "C031",
+    "text": "Excited to actually eat lunch with coworkers instead of alone at my kitchen table.",
+    "source_label": "Employee 31"
+  },
+  {
+    "comment_id": "C032",
+    "text": "The noise level worries me more than the commute, honestly.",
+    "source_label": "Employee 32"
+  },
+  {
+    "comment_id": "C033",
+    "text": "Good for junior staff, neutral for me, but I'll make it work.",
+    "source_label": "Employee 33"
+  },
+  {
+    "comment_id": "C034",
+    "text": "Being visible to leadership in person probably helps careers, like it or not.",
+    "source_label": "Employee 34"
+  },
+  {
+    "comment_id": "C035",
+    "text": "I think morale gets a real bump from just seeing faces again.",
+    "source_label": "Employee 35"
+  },
+  {
+    "comment_id": "C036",
+    "text": "Hoping we get a desk-booking system that actually works, or seating will be chaos.",
+    "source_label": "Employee 36"
+  },
+  {
+    "comment_id": "C037",
+    "text": "My mentee learns faster when she can watch me work through a problem live.",
+    "source_label": "Employee 37"
+  },
+  {
+    "comment_id": "C038",
+    "text": "Collaboration is the obvious upside; the open-plan noise is the obvious downside. Net positive, I think.",
+    "source_label": "Employee 38"
+  },
+  {
+    "comment_id": "C039",
+    "text": "My care responsibilities change from one week to the next, so a fixed set of in-office days is hard for me to commit to consistently.",
+    "source_label": "Employee 39"
+  },
+  {
+    "comment_id": "C040",
+    "text": "I'm a fan. Remote was efficient but a little lonely.",
+    "source_label": "Employee 40"
+  },
+  {
+    "comment_id": "C041",
+    "text": "The real test is whether we protect some quiet space for focus work.",
+    "source_label": "Employee 41"
+  },
+  {
+    "comment_id": "C042",
+    "text": "New hires ghosting after two months was partly an onboarding problem. This should help retention.",
+    "source_label": "Employee 42"
+  },
+  {
+    "comment_id": "C043",
+    "text": "Team culture is built in the small moments between meetings, and you only get those in person.",
+    "source_label": "Employee 43"
+  },
+  {
+    "comment_id": "C044",
+    "text": "Three days, sure, but I'd trade a fixed schedule for the flexibility to pick which three.",
+    "source_label": "Employee 44"
+  },
+  {
+    "comment_id": "C045",
+    "text": "I already know Wednesdays will be a fight for conference rooms.",
+    "source_label": "Employee 45"
+  },
+  {
+    "comment_id": "C046",
+    "text": "Genuinely looking forward to mentoring in person again. Screen-sharing just isn't the same.",
+    "source_label": "Employee 46"
+  },
+  {
+    "comment_id": "C047",
+    "text": "My productivity lives and dies by uninterrupted focus time, so I'll be hunting for a quiet corner.",
+    "source_label": "Employee 47"
+  },
+  {
+    "comment_id": "C048",
+    "text": "This helps the newer team members way more than the veterans, and that's a good thing.",
+    "source_label": "Employee 48"
+  },
+  {
+    "comment_id": "C049",
+    "text": "Morale, collaboration, all the soft stuff — it's real, and it's better face to face.",
+    "source_label": "Employee 49"
+  },
+  {
+    "comment_id": "C050",
+    "text": "Please, more small rooms for one-on-ones. The big rooms sit empty while we can't find a huddle space.",
+    "source_label": "Employee 50"
+  },
+  {
+    "comment_id": "C051",
+    "text": "I like seeing my team, I just don't love the drive. Small price, I guess.",
+    "source_label": "Employee 51"
+  },
+  {
+    "comment_id": "C052",
+    "text": "Onboarding will be night and day compared to doing it fully remote.",
+    "source_label": "Employee 52"
+  },
+  {
+    "comment_id": "C053",
+    "text": "Overhearing how other people solve things is underrated. You can't Slack your way into that.",
+    "source_label": "Employee 53"
+  },
+  {
+    "comment_id": "C054",
+    "text": "Noise-cancelling headphones are about to become the most important perk in the building.",
+    "source_label": "Employee 54"
+  },
+  {
+    "comment_id": "C055",
+    "text": "Three days feels sustainable. Five would not have.",
+    "source_label": "Employee 55"
+  },
+  {
+    "comment_id": "C056",
+    "text": "The culture argument is the strongest one here, in my view.",
+    "source_label": "Employee 56"
+  },
+  {
+    "comment_id": "C057",
+    "text": "Mentorship works better when it's ambient — quick questions, not scheduled calls.",
+    "source_label": "Employee 57"
+  },
+  {
+    "comment_id": "C058",
+    "text": "I hope there's a plan for meeting-room demand, because right now it's a daily scramble.",
+    "source_label": "Employee 58"
+  },
+  {
+    "comment_id": "C059",
+    "text": "Being in the room for brainstorms changes the quality of the ideas. I've felt the difference.",
+    "source_label": "Employee 59"
+  },
+  {
+    "comment_id": "C060",
+    "text": "Cautious yes. The collaboration is worth the tradeoffs if we manage the noise.",
+    "source_label": "Employee 60"
+  },
+  {
+    "comment_id": "C061",
+    "text": "The commute eats a bigger share of take-home pay for people on the lower bands than it does for the rest of us, and that's worth keeping in mind.",
+    "source_label": "Employee 61"
+  },
+  {
+    "comment_id": "C062",
+    "text": "I think this is good for team cohesion, which had been slipping.",
+    "source_label": "Employee 62"
+  },
+  {
+    "comment_id": "C063",
+    "text": "Deep focus is my worry. Everything else about being in I actually like.",
+    "source_label": "Employee 63"
+  },
+  {
+    "comment_id": "C064",
+    "text": "Ramping up new engineers in person is so much faster. Fully support this.",
+    "source_label": "Employee 64"
+  },
+  {
+    "comment_id": "C065",
+    "text": "The vibe of a full office is motivating in a way I didn't expect to miss.",
+    "source_label": "Employee 65"
+  },
+  {
+    "comment_id": "C066",
+    "text": "Just fix the room booking and I'll have nothing to complain about.",
+    "source_label": "Employee 66"
+  },
+  {
+    "comment_id": "C067",
+    "text": "Mentoring, onboarding, culture — the human stuff is the whole point of being together.",
+    "source_label": "Employee 67"
+  },
+  {
+    "comment_id": "C068",
+    "text": "I'll take the collaboration boost even if it means noisier days.",
+    "source_label": "Employee 68"
+  },
+  {
+    "comment_id": "C069",
+    "text": "Predictable in-office days will actually make it easier to schedule collaborative work.",
+    "source_label": "Employee 69"
+  },
+  {
+    "comment_id": "C070",
+    "text": "Newer hires have been struggling to plug in. This gives them a real shot.",
+    "source_label": "Employee 70"
+  },
+  {
+    "comment_id": "C071",
+    "text": "My only ask: protect some quiet zones so focus work doesn't die.",
+    "source_label": "Employee 71"
+  },
+  {
+    "comment_id": "C072",
+    "text": "Seeing colleagues in person does more for morale than any offsite ever did.",
+    "source_label": "Employee 72"
+  },
+  {
+    "comment_id": "C073",
+    "text": "The spontaneous problem-solving is what I've missed most about the office.",
+    "source_label": "Employee 73"
+  },
+  {
+    "comment_id": "C074",
+    "text": "Three days is a fair compromise and I'd rather this than a full return.",
+    "source_label": "Employee 74"
+  },
+  {
+    "comment_id": "C075",
+    "text": "Room availability is going to be the make-or-break detail here.",
+    "source_label": "Employee 75"
+  },
+  {
+    "comment_id": "C076",
+    "text": "Great for mentorship. My growth stalled a bit when everything went remote.",
+    "source_label": "Employee 76"
+  },
+  {
+    "comment_id": "C077",
+    "text": "I'm neutral on the commute but positive on being around the team again.",
+    "source_label": "Employee 77"
+  },
+  {
+    "comment_id": "C078",
+    "text": "Culture erodes quietly when nobody's ever in the same place. Glad we're addressing it.",
+    "source_label": "Employee 78"
+  },
+  {
+    "comment_id": "C079",
+    "text": "Noise is the thing I'll have to solve for. Otherwise I'm on board.",
+    "source_label": "Employee 79"
+  },
+  {
+    "comment_id": "C080",
+    "text": "Onboarding the last cohort remotely was rough; this fixes a real problem.",
+    "source_label": "Employee 80"
+  },
+  {
+    "comment_id": "C081",
+    "text": "Being physically present for planning sessions just produces better outcomes.",
+    "source_label": "Employee 81"
+  },
+  {
+    "comment_id": "C082",
+    "text": "I like the collaboration, I just hope managers respect the two remote days.",
+    "source_label": "Employee 82"
+  },
+  {
+    "comment_id": "C083",
+    "text": "More whiteboards and more rooms, please. That's my whole wishlist.",
+    "source_label": "Employee 83"
+  },
+  {
+    "comment_id": "C084",
+    "text": "On in-office days I sometimes lose a chunk of working time to lighting and background noise that I don't deal with at home.",
+    "source_label": "Employee 84"
+  },
+  {
+    "comment_id": "C085",
+    "text": "Mentoring in person means my junior gets answers in seconds, not hours.",
+    "source_label": "Employee 85"
+  },
+  {
+    "comment_id": "C086",
+    "text": "Morale should improve just from the casual reconnecting that happens naturally.",
+    "source_label": "Employee 86"
+  },
+  {
+    "comment_id": "C087",
+    "text": "The team-building that happens by accident in an office is hard to design on purpose.",
+    "source_label": "Employee 87"
+  },
+  {
+    "comment_id": "C088",
+    "text": "Focus days at home, collaboration days in office — if we hold that line, this works.",
+    "source_label": "Employee 88"
+  },
+  {
+    "comment_id": "C089",
+    "text": "New folks learn the culture by osmosis in person. That's the strongest case for it.",
+    "source_label": "Employee 89"
+  },
+  {
+    "comment_id": "C090",
+    "text": "I'm looking forward to it, noise and all. The upside outweighs the annoyances.",
+    "source_label": "Employee 90"
+  },
+  {
+    "comment_id": "C091",
+    "text": "Meeting rooms fill up by 9am now. Three overlapping days will stress that hard.",
+    "source_label": "Employee 91"
+  },
+  {
+    "comment_id": "C092",
+    "text": "Collaboration genuinely improves in person; I've stopped pretending otherwise.",
+    "source_label": "Employee 92"
+  },
+  {
+    "comment_id": "C093",
+    "text": "This will make mentorship feel natural again instead of forced onto a calendar.",
+    "source_label": "Employee 93"
+  },
+  {
+    "comment_id": "C094",
+    "text": "Morale, onboarding, culture — all the things that were fraying should get some repair.",
+    "source_label": "Employee 94"
+  },
+  {
+    "comment_id": "C095",
+    "text": "My concern is purely noise and focus. Everything else I'm fine with.",
+    "source_label": "Employee 95"
+  },
+  {
+    "comment_id": "C096",
+    "text": "Being co-located a few days a week should unblock a lot of the cross-team friction.",
+    "source_label": "Employee 96"
+  },
+  {
+    "comment_id": "C097",
+    "text": "Onboarding is where this pays off most, and that's exactly where we've been weak.",
+    "source_label": "Employee 97"
+  },
+  {
+    "comment_id": "C098",
+    "text": "I'll adjust to the commute. The team connection is worth showing up for.",
+    "source_label": "Employee 98"
+  },
+  {
+    "comment_id": "C099",
+    "text": "Just give us enough rooms and quiet corners and this lands well.",
+    "source_label": "Employee 99"
+  },
+  {
+    "comment_id": "C100",
+    "text": "On balance I think it's the right move — collaboration and culture are hard to rebuild any other way.",
+    "source_label": "Employee 100"
+  }
+]
