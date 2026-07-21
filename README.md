@@ -1,8 +1,8 @@
 # EqualVoice
 
 When an AI summarizes many people's feedback into a few bullets, it rarely
-deletes a minority concern outright — it **assimilates** it: the topic
-survives, but the specific, consequential substance gets recoded as something
+deletes a marginalized voices (e.g., LGBTQ+, people with disabilities) outright — it **assimilates** it: the topic
+is included in the summary, but the specific, consequential substance gets recoded as something
 the majority also wanted. An employee's disability accommodation need becomes a
 generic "quiet zones" line; three distinct equity barriers collapse into one
 "manage flexibility" bullet. The summary looks complete, so no one notices what
@@ -10,7 +10,7 @@ was flattened. EqualVoice is an **evaluation layer** — not another summarizer 
 that audits a summary claim by claim against the original contributions, scores
 each as PRESERVED / DILUTED / OMITTED with a GPT-5.6 matcher, and surfaces the
 high-consequence cases where a real concern was assimilated into a majority
-theme. It's built for anyone who turns many voices into one decision: HR,
+theme. It's built for anyone who summarizes many voices for making decisions: HR,
 product research, public consultation, community management.
 
 EqualVoice is an **evaluation layer for AI summaries**, not another summarizer. It audits whether a compressed summary preserves the specific substance of every contributor's claim—and makes it easy to spot an especially subtle failure: **assimilation**.
