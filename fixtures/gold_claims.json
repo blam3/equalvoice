@@ -1,1 +1,702 @@
-[]
+[
+  {
+    "claim_id": "C001.a",
+    "comment_id": "C001",
+    "text": "In-person whiteboarding with the team is a benefit of returning to the office.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C002.a",
+    "comment_id": "C002",
+    "text": "The three-day in-office schedule is a reasonable, if unexciting, middle ground.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C003.a",
+    "comment_id": "C003",
+    "text": "Having onboarding buddies in the room will meaningfully help new hires.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C004.a",
+    "comment_id": "C004",
+    "text": "Overhearing nearby design-team debates in the office helps generate better ideas.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C005.a",
+    "comment_id": "C005",
+    "text": "When everyone overlaps, the open office floor will be excessively noisy.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C006.a",
+    "comment_id": "C006",
+    "text": "In-person work supports culture in ways Slack cannot.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C007.a",
+    "comment_id": "C007",
+    "text": "Meeting-room availability needs to be fixed before the in-office policy starts.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C008.a",
+    "comment_id": "C008",
+    "text": "In-person mentoring works much better for the employee's junior than video mentoring.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C009.a",
+    "comment_id": "C009",
+    "text": "The employee is cautiously optimistic but reserves judgment until after a month of commuting.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C010.a",
+    "comment_id": "C010",
+    "text": "The energy of a full office cannot be replicated remotely.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C011.a",
+    "comment_id": "C011",
+    "text": "Parking conditions after a quarter will test whether three office days are realistic.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C012.a",
+    "comment_id": "C012",
+    "text": "Unreliable early trains can keep the employee from arriving on time on office mornings.",
+    "dimension": "transit_access",
+    "consequence": "high"
+  },
+  {
+    "claim_id": "C013.a",
+    "comment_id": "C013",
+    "text": "Spontaneous coffee-line conversations can solve problems faster than extended email exchanges.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C014.a",
+    "comment_id": "C014",
+    "text": "Office days may undermine the uninterrupted focus that made the employee productive while remote.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C015.a",
+    "comment_id": "C015",
+    "text": "Newer employees need in-person time to learn unwritten workplace rules.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C016.a",
+    "comment_id": "C016",
+    "text": "A three-days-in, two-days-home schedule is the ideal balance of collaboration and avoiding burnout.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C017.a",
+    "comment_id": "C017",
+    "text": "In-person work makes the team feel cohesive again rather than like a grid of thumbnails.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C018.a",
+    "comment_id": "C018",
+    "text": "More phone booths are needed because desk calls in an open office disrupt nearby coworkers.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C019.a",
+    "comment_id": "C019",
+    "text": "Working beside senior colleagues in person is highly valuable for professional growth.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C020.a",
+    "comment_id": "C020",
+    "text": "Being together in person may lift the squad's currently flat morale.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C021.a",
+    "comment_id": "C021",
+    "text": "The employee accepts the collaboration case but worries three office days could quietly become five.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C022.a",
+    "comment_id": "C022",
+    "text": "In-person onboarding should be much smoother than last year's painful remote onboarding.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C023.a",
+    "comment_id": "C023",
+    "text": "Meeting rooms will be the bottleneck under the new office arrangement.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C024.a",
+    "comment_id": "C024",
+    "text": "The employee expects office noise to impair the clear thinking they get in a quiet home.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C025.a",
+    "comment_id": "C025",
+    "text": "The in-office policy is the right cultural choice because teams need shared rooms to sustain culture.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C026.a",
+    "comment_id": "C026",
+    "text": "Three office days are fine provided the schedule is predictable enough to plan the rest of the week.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C027.a",
+    "comment_id": "C027",
+    "text": "Apprenticeship-style learning in person is genuinely hard to replicate over calls.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C028.a",
+    "comment_id": "C028",
+    "text": "The employee is willing to sacrifice quiet for a stronger sense of connection to coworkers.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C029.a",
+    "comment_id": "C029",
+    "text": "Co-locating teams a few days per week should improve weak cross-team collaboration.",
+    "dimension": "collaboration_culture",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C030.a",
+    "comment_id": "C030",
+    "text": "People booking rooms for recurring syncs should free more rooms for others.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C031.a",
+    "comment_id": "C031",
+    "text": "The employee looks forward to eating lunch with coworkers instead of alone at home.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C032.a",
+    "comment_id": "C032",
+    "text": "Open-office noise is a greater concern for the employee than commuting.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C033.a",
+    "comment_id": "C033",
+    "text": "The policy is good for junior staff but neutral and manageable for the employee.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C034.a",
+    "comment_id": "C034",
+    "text": "Being visible to leadership in person likely helps careers, even if unfairly.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C035.a",
+    "comment_id": "C035",
+    "text": "Seeing colleagues' faces again will meaningfully improve morale.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C036.a",
+    "comment_id": "C036",
+    "text": "A desk-booking system that works is needed to avoid chaotic seating.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C037.a",
+    "comment_id": "C037",
+    "text": "A mentee learns faster by watching a mentor solve problems live.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C038.a",
+    "comment_id": "C038",
+    "text": "The collaboration benefits of in-office work outweigh the downside of open-plan noise.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C039.a",
+    "comment_id": "C039",
+    "text": "Changing care responsibilities make consistently committing to fixed in-office days difficult.",
+    "dimension": "caregiving_schedule",
+    "consequence": "high"
+  },
+  {
+    "claim_id": "C040.a",
+    "comment_id": "C040",
+    "text": "The employee supports in-office work because remote work, though efficient, felt lonely.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C041.a",
+    "comment_id": "C041",
+    "text": "In-office work must provide quiet space for focus work to succeed.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C042.a",
+    "comment_id": "C042",
+    "text": "The return to office should improve new-hire retention by addressing an onboarding problem behind early departures.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C043.a",
+    "comment_id": "C043",
+    "text": "Small in-person moments between meetings are necessary for building team culture.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C044.a",
+    "comment_id": "C044",
+    "text": "A three-day office requirement is acceptable only if employees can choose the days rather than follow a fixed schedule.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C045.a",
+    "comment_id": "C045",
+    "text": "Conference rooms will be especially contested on Wednesdays.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C046.a",
+    "comment_id": "C046",
+    "text": "In-person mentoring is preferable to screen-sharing.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C047.a",
+    "comment_id": "C047",
+    "text": "Maintaining productivity requires uninterrupted focus time and a quiet workspace.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C048.a",
+    "comment_id": "C048",
+    "text": "The return to office will benefit newer team members more than veterans, which is positive.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C049.a",
+    "comment_id": "C049",
+    "text": "Face-to-face work provides real morale and collaboration benefits.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C050.a",
+    "comment_id": "C050",
+    "text": "The office needs more small rooms for one-on-ones and huddles because large rooms are underused while small spaces are scarce.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C051.a",
+    "comment_id": "C051",
+    "text": "The inconvenience of the commute is an acceptable price for seeing the team in person.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C052.a",
+    "comment_id": "C052",
+    "text": "In-person onboarding will be dramatically better than fully remote onboarding.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C053.a",
+    "comment_id": "C053",
+    "text": "Informally overhearing others solve problems is a valuable in-person learning benefit that Slack cannot replicate.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C054.a",
+    "comment_id": "C054",
+    "text": "Office noise will make noise-cancelling headphones essential.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C055.a",
+    "comment_id": "C055",
+    "text": "Three in-office days are sustainable, whereas five would not be.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C056.a",
+    "comment_id": "C056",
+    "text": "Culture is the strongest argument for returning to the office.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C057.a",
+    "comment_id": "C057",
+    "text": "Mentorship is more effective through ambient, spontaneous questions than scheduled calls.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C058.a",
+    "comment_id": "C058",
+    "text": "Meeting-room demand needs a plan because finding a room is currently a daily scramble.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C059.a",
+    "comment_id": "C059",
+    "text": "In-person brainstorming improves idea quality.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C060.a",
+    "comment_id": "C060",
+    "text": "The employee cautiously supports in-office work because collaboration is worth the tradeoffs if noise is managed.",
+    "dimension": "collaboration_culture",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C061.a",
+    "comment_id": "C061",
+    "text": "Commuting costs consume a disproportionately large share of take-home pay for lower-paid employees.",
+    "dimension": "socioeconomic_cost",
+    "consequence": "high"
+  },
+  {
+    "claim_id": "C062.a",
+    "comment_id": "C062",
+    "text": "Returning to the office will improve team cohesion, which has been slipping.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C063.a",
+    "comment_id": "C063",
+    "text": "The employee likes in-office work overall but is concerned about losing deep focus.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C064.a",
+    "comment_id": "C064",
+    "text": "In-person work speeds new-engineer ramp-up, so the employee fully supports it.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C065.a",
+    "comment_id": "C065",
+    "text": "A full office atmosphere is unexpectedly motivating.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C066.a",
+    "comment_id": "C066",
+    "text": "Fixing the room-booking system would eliminate the employee's remaining objection.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C067.a",
+    "comment_id": "C067",
+    "text": "The main purpose of bringing people together is to enable mentoring, onboarding, and culture.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C068.a",
+    "comment_id": "C068",
+    "text": "The collaboration boost is worth accepting noisier office days.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C069.a",
+    "comment_id": "C069",
+    "text": "Predictable office days make collaborative work easier to schedule.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C070.a",
+    "comment_id": "C070",
+    "text": "In-person time gives newer hires a real chance to integrate.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C071.a",
+    "comment_id": "C071",
+    "text": "Quiet zones are necessary so focus work does not disappear.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C072.a",
+    "comment_id": "C072",
+    "text": "Seeing colleagues in person improves morale more than an offsite.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C073.a",
+    "comment_id": "C073",
+    "text": "Spontaneous in-person problem-solving is the office benefit most missed.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C074.a",
+    "comment_id": "C074",
+    "text": "Three office days are a fair compromise compared with a full return.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C075.a",
+    "comment_id": "C075",
+    "text": "Room availability will determine whether the policy succeeds.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C076.a",
+    "comment_id": "C076",
+    "text": "In-person mentorship can restore growth that stalled during remote work.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C077.a",
+    "comment_id": "C077",
+    "text": "Team connection is worth commuting for.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C078.a",
+    "comment_id": "C078",
+    "text": "Team culture erodes when people are never in the same place.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C079.a",
+    "comment_id": "C079",
+    "text": "Office noise is the main issue that must be solved.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C080.a",
+    "comment_id": "C080",
+    "text": "In-person onboarding fixes the problems experienced with the last remote cohort.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C081.a",
+    "comment_id": "C081",
+    "text": "Physical presence in planning sessions produces better outcomes.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C082.a",
+    "comment_id": "C082",
+    "text": "Managers must respect the two remote days.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C083.a",
+    "comment_id": "C083",
+    "text": "The office needs more whiteboards and rooms.",
+    "dimension": "operations_logistics",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C084.a",
+    "comment_id": "C084",
+    "text": "Office lighting and background noise cause loss of working time that does not occur at home.",
+    "dimension": "disability_access",
+    "consequence": "high"
+  },
+  {
+    "claim_id": "C085.a",
+    "comment_id": "C085",
+    "text": "In-person mentoring lets juniors get answers in seconds rather than hours.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C086.a",
+    "comment_id": "C086",
+    "text": "Casual in-person reconnecting will improve morale.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C087.a",
+    "comment_id": "C087",
+    "text": "Unplanned office interactions create team-building that cannot be deliberately designed.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C088.a",
+    "comment_id": "C088",
+    "text": "The policy works if home days remain for focus and office days for collaboration.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C089.a",
+    "comment_id": "C089",
+    "text": "New hires learn culture through in-person immersion.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C090.a",
+    "comment_id": "C090",
+    "text": "The collaboration upside outweighs office noise.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C091.a",
+    "comment_id": "C091",
+    "text": "Three overlapping office days will severely strain meeting-room capacity.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C092.a",
+    "comment_id": "C092",
+    "text": "In-person collaboration genuinely improves.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C093.a",
+    "comment_id": "C093",
+    "text": "In-person mentorship makes mentoring feel natural instead of calendar-bound.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C094.a",
+    "comment_id": "C094",
+    "text": "In-person work can repair morale, onboarding, and culture that have been fraying.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C095.a",
+    "comment_id": "C095",
+    "text": "Noise and focus are the only concern.",
+    "dimension": "environment_focus",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C096.a",
+    "comment_id": "C096",
+    "text": "Co-locating a few days per week will reduce cross-team friction.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C097.a",
+    "comment_id": "C097",
+    "text": "The policy delivers its greatest value by improving weak onboarding.",
+    "dimension": "onboarding_mentorship",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C098.a",
+    "comment_id": "C098",
+    "text": "The team connection is worth adapting to the commute.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  },
+  {
+    "claim_id": "C099.a",
+    "comment_id": "C099",
+    "text": "Sufficient rooms and quiet corners are necessary for the policy to land well.",
+    "dimension": "operations_logistics",
+    "consequence": "medium"
+  },
+  {
+    "claim_id": "C100.a",
+    "comment_id": "C100",
+    "text": "The policy is the right move because collaboration and culture are hard to rebuild otherwise.",
+    "dimension": "collaboration_culture",
+    "consequence": "low"
+  }
+]
