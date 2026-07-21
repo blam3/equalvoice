@@ -26,11 +26,22 @@ function statusClass(status: Status) {
   return `status status--${status.toLowerCase()}`
 }
 
+function renderInlineBold(text: string) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>
+    }
+
+    return part
+  })
+}
+
 function App() {
   const [mode, setMode] = useState<RunMode>('demo')
   const [verdicts, setVerdicts] = useState<CoverageVerdict[]>(cachedDemoVerdicts)
   const [isRunning, setIsRunning] = useState(false)
   const [message, setMessage] = useState('Demo mode: cached verdicts loaded without a network request.')
+  const [messageKind, setMessageKind] = useState<'info' | 'success' | 'error'>('info')
 
   const report = useMemo(
     () => scoreReport(verdicts, claims as Claim[], summary.summary_id),
@@ -69,29 +80,44 @@ function App() {
     if (nextMode === 'demo') {
       setVerdicts(cachedDemoVerdicts)
       setMessage('Demo mode: cached verdicts loaded without a network request.')
+      setMessageKind('info')
+    } else {
+      setMessage('Live mode uses GPT-5.6 and requires an OpenAI API Key on the local development server.')
+      setMessageKind('info')
     }
   }
 
   async function handleLiveRun() {
     setIsRunning(true)
     setMessage('Running the matcher over cached claims (up to five requests at a time)…')
-    const nextVerdicts = await runLive(claims as Claim[], summary.text)
-    setVerdicts(nextVerdicts)
+    setMessageKind('info')
 
-    if (nextVerdicts.every((verdict) => verdict.error === null)) {
+    try {
+      const nextVerdicts = await runLive(claims as Claim[], summary.text)
+      setVerdicts(nextVerdicts)
+
+      if (!nextVerdicts.every((verdict) => verdict.error === null)) {
+        setMessage('Live run completed with error verdicts; the demo cache was not changed.')
+        setMessageKind('error')
+        return
+      }
+
       try {
         await cacheVerdicts(nextVerdicts)
         setMessage('Live run completed and cached for future demo mode.')
+        setMessageKind('success')
       } catch (error) {
         setMessage(
           `Live run completed. ${error instanceof Error ? error.message : 'Could not cache verdicts.'}`,
         )
+        setMessageKind('error')
       }
-    } else {
-      setMessage('Live run completed with error verdicts; the demo cache was not changed.')
+    } catch (error) {
+      setMessage(`Live run failed: ${error instanceof Error ? error.message : 'Unexpected error.'}`)
+      setMessageKind('error')
+    } finally {
+      setIsRunning(false)
     }
-
-    setIsRunning(false)
   }
 
   return (
@@ -120,7 +146,22 @@ function App() {
         </div>
       </header>
 
-      <p className="mode-message">{message}</p>
+      <p className={`mode-message mode-message--${messageKind}`} role="status" aria-live="polite">
+        {isRunning && <span className="loading-dot" aria-hidden="true" />}
+        {message}
+      </p>
+
+      <section className="explainer" aria-labelledby="explainer-heading">
+        <div>
+          <p className="eyebrow">How to read this audit</p>
+          <h2 id="explainer-heading">EqualVoice evaluates a summary. It does not write one.</h2>
+        </div>
+        <p>
+          Each hand-authored contributor claim is checked against a cached five-bullet summary. A claim can be
+          preserved, diluted, or omitted. The most consequential non-preserved claims are flagged as
+          assimilations: their topic appears, but the specific harm is no longer recoverable.
+        </p>
+      </section>
 
       {heroVerdict && heroClaim && heroComment && assimilationIds.includes(heroClaimId) && (
         <section className="hero" aria-labelledby="hero-heading">
@@ -143,7 +184,7 @@ function App() {
             </div>
             <article className="summary-card">
               <p className="card-label">Summary bullet</p>
-              <p>{heroVerdict.nearest_bullet}</p>
+              <p>{renderInlineBold(heroVerdict.nearest_bullet ?? '')}</p>
             </article>
           </div>
           <p className="lost-label">
@@ -167,7 +208,7 @@ function App() {
                   <article className="needle-card" key={claim.claim_id}>
                     <p>{comment?.text}</p>
                     <span>assimilated → {lostSubstance[claim.claim_id]}</span>
-                    <small>{verdict.rationale}</small>
+                    <small>{renderInlineBold(verdict.rationale)}</small>
                   </article>
                 )
               })}
@@ -175,7 +216,7 @@ function App() {
             <div className="many-to-one" aria-hidden="true">→</div>
             <article className="summary-card shared-summary">
               <p className="card-label">One summary bullet</p>
-              <p>{sharedBullet}</p>
+              <p>{renderInlineBold(sharedBullet ?? '')}</p>
             </article>
           </div>
         </section>
@@ -214,8 +255,8 @@ function App() {
                     <td>
                       <details>
                         <summary>{isAssimilation ? 'Flagged assimilation' : 'View evidence'}</summary>
-                        <p><strong>Carrying text:</strong> {verdict?.carrying_text ?? 'None'}</p>
-                        <p><strong>Rationale:</strong> {verdict?.rationale ?? verdict?.error ?? 'Not scored'}</p>
+                        <p><strong>Carrying text:</strong> {renderInlineBold(verdict?.carrying_text ?? 'None')}</p>
+                        <p><strong>Rationale:</strong> {renderInlineBold(verdict?.rationale ?? verdict?.error ?? 'Not scored')}</p>
                         {claim.claim_id === 'C038.a' && <p className="control-note">Correct-compression control: low consequence, so not an assimilation.</p>}
                       </details>
                     </td>

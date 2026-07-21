@@ -18,7 +18,13 @@ h2 { font-size: clamp(1.45rem, 3vw, 2.35rem); letter-spacing: -.04em; margin-bot
 .mode-control label { font-size: .88rem; font-weight: 700; }
 select, button { border: 1px solid #b8c7bd; border-radius: 7px; padding: 9px 11px; background: #fff; color: #17231f; }
 button { background: #183d2b; color: #fff; border-color: #183d2b; font-weight: 700; cursor: pointer; }
-.mode-message { color: #597063; margin: 22px 0; }
+.mode-message { display: flex; align-items: center; gap: 8px; color: #597063; margin: 22px 0; }
+.mode-message--success { color: #12633a; }.mode-message--error { color: #a12828; }
+.loading-dot { width: 9px; height: 9px; border-radius: 50%; background: currentColor; animation: pulse 1s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .35; transform: scale(.75); } }
+
+.explainer { display: grid; grid-template-columns: minmax(260px, .9fr) minmax(0, 1.1fr); gap: 34px; align-items: start; margin: 0 0 28px; padding: 22px 24px; border-left: 4px solid #7ba88a; background: #e8f0ea; border-radius: 0 12px 12px 0; }
+.explainer h2 { margin-bottom: 0; font-size: clamp(1.25rem, 2.4vw, 1.75rem); }.explainer > p { margin: 0; color: #365141; line-height: 1.55; }
 
 .hero { background: #122c20; color: #f8fcf8; padding: clamp(24px, 5vw, 54px); border-radius: 18px; box-shadow: 0 18px 40px #11281922; }
 .hero .eyebrow { color: #a7d7b7; }
@@ -65,5 +71,5 @@ details { min-width: 180px; } summary { cursor: pointer; color: #315a42; font-we
 .control-note { color: #476154; font-weight: 700; }
 
 @media (max-width: 760px) {
-  .app-shell { padding: 20px 14px 50px; }.topbar, .matrix-header { display: grid; }.comparison, .pattern-grid { grid-template-columns: 1fr; }.assimilation-arrow { min-height: 54px; transform: rotate(90deg); }.many-to-one { transform: rotate(90deg); min-height: 48px; }.counts { flex-wrap: wrap; }
+  .app-shell { padding: 20px 14px 50px; }.topbar, .matrix-header, .explainer { display: grid; }.comparison, .pattern-grid { grid-template-columns: 1fr; }.assimilation-arrow { min-height: 54px; transform: rotate(90deg); }.many-to-one { transform: rotate(90deg); min-height: 48px; }.counts { flex-wrap: wrap; }
 }
